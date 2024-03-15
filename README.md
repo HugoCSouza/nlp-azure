@@ -9,3 +9,11 @@ Para trabalhar com NLP dentro do Azure, começaremos pelo o Speech Studio que es
 Dentro da página inicial, clique no ícone da engrenagem. Ela te levará a aba de configurações.
 ![alt text](image-1.png)
 
+Dentro dessa aba, clique em criar um novo recurso. Crie este novo recurso preenchendo as lacunas.
+![alt text](image-2.png)
+
+Selecione o novo recurso e clique em usar o recurso. Você será redirecionado a página principal.
+![alt text](image-3.png)
+
+Na página principal, desca a página até aparece a aba "**conversão de fala em texto**". Dentro dessa aba, selecione a opção "*conversão de fala em texto em tempo real*".
+![alt text](image-4.png)
