@@ -1,0 +1,164 @@
+{
+    "documents": [
+        {
+            "id": "id__1999",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.16,
+                "neutral": 0.25,
+                "negative": 0.59
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.93,
+                        "negative": 0.03
+                    },
+                    "offset": 0,
+                    "length": 165,
+                    "text": " Pesquisa Datafolha divulgada nesta quinta-feira (21) pelo jornal \"Folha de S.Paulo\" aponta como os brasileiros avaliam o governo de Luiz Inácio Lula da Silva (PT).\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.2,
+                        "negative": 0.79
+                    },
+                    "offset": 165,
+                    "length": 161,
+                    "text": "No geral, houve um crescimento de três pontos percentuais entre os que consideram o governo ruim ou péssimo, que agora somam 33% (eram 30% em dezembro de 2023). ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.56,
+                        "neutral": 0.39,
+                        "negative": 0.04
+                    },
+                    "offset": 326,
+                    "length": 144,
+                    "text": "Dos entrevistados, 35% consideram o governo ótimo ou bom (eram 38% em dezembro) e 30% consideram o governo regular (o mesmo valor de dezembro).\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 363,
+                            "length": 7,
+                            "text": "governo",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 371,
+                            "length": 5,
+                            "text": "ótimo",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.52,
+                        "negative": 0.47
+                    },
+                    "offset": 470,
+                    "length": 69,
+                    "text": "A margem de erro é de 2 pontos percentuais, para mais ou para menos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.97,
+                        "negative": 0.01
+                    },
+                    "offset": 539,
+                    "length": 109,
+                    "text": "O levantamento foi feito com 2.002 pessoas de 16 anos ou mais, em 147 municípios, nos dias 19 e 20 de março.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.35,
+                        "negative": 0.58
+                    },
+                    "offset": 648,
+                    "length": 149,
+                    "text": "No mesmo período, em 2020, 38% dos entrevistados afirmaram que o governo de Jair Bolsonaro (PL) era ruim ou péssimo, 33% bom ou ótimo e 26% regular.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.19,
+                        "neutral": 0.77,
+                        "negative": 0.04
+                    },
+                    "offset": 797,
+                    "length": 115,
+                    "text": "Nos governos do petista, o segundo mandato teve maior porcentagem dos entrevistados que achavam bom ou ótimo, 55%. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 912,
+                    "length": 53,
+                    "text": "Na época, 33% achavam regular e 11% ruim ou péssimo.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.17,
+                        "neutral": 0.27,
+                        "negative": 0.57
+                    },
+                    "offset": 965,
+                    "length": 185,
+                    "text": "Entre os presidentes, Dilma Rousseff (PT) é quem aparece com melhor avaliação durante mesmo período, com 64% de avaliação ótima ou boa, 29% de regular e 5% de ruim ou péssima, em 2012. ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

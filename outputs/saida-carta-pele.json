@@ -1,0 +1,463 @@
+{
+    "documents": [
+        {
+            "id": "id__2724",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.67,
+                "neutral": 0.02,
+                "negative": 0.31
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 31,
+                    "text": "Carta aberta sobre o meu sonho\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.49,
+                        "neutral": 0.5,
+                        "negative": 0.01
+                    },
+                    "offset": 31,
+                    "length": 24,
+                    "text": "“A vida é oportunidade. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 55,
+                    "length": 45,
+                    "text": "O que fazemos com ela cabe a cada um de nós. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 100,
+                    "length": 21,
+                    "text": "Acertamos e erramos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.02,
+                        "negative": 0.02
+                    },
+                    "offset": 121,
+                    "length": 36,
+                    "text": "Na vitória, recebemos a celebração. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 157,
+                    "length": 27,
+                    "text": "Na derrota, o aprendizado. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 184,
+                    "length": 52,
+                    "text": "A vida sempre é generosa e oferece novos recomeços. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 187,
+                            "length": 4,
+                            "text": "vida",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 201,
+                            "length": 8,
+                            "text": "generosa",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.97,
+                        "negative": 0
+                    },
+                    "offset": 236,
+                    "length": 49,
+                    "text": "A cada dia que passa, iniciamos um novo caminho. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.8,
+                        "neutral": 0.03,
+                        "negative": 0.17
+                    },
+                    "offset": 285,
+                    "length": 90,
+                    "text": "E neste ciclo, alimentamos sonhos que nunca morrem, independente dos tropeços da jornada.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.46,
+                        "neutral": 0.2,
+                        "negative": 0.34
+                    },
+                    "offset": 375,
+                    "length": 151,
+                    "text": "“Isso serve para todo mundo, mas quando o seu sonho é ser jogador de futebol, as oportunidades são muito mais raras e os sonhos muito mais longínquos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.19,
+                        "neutral": 0.02,
+                        "negative": 0.79
+                    },
+                    "offset": 526,
+                    "length": 64,
+                    "text": "Já os tropeços não são mais doloridos que o da vida de ninguém. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.97,
+                        "negative": 0.02
+                    },
+                    "offset": 590,
+                    "length": 54,
+                    "text": "Porém, são julgados por muito mais pessoas, não acha? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0,
+                        "negative": 0.01
+                    },
+                    "offset": 644,
+                    "length": 65,
+                    "text": "E, para ser justo, as vitórias são muito mais celebradas também.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 709,
+                    "length": 186,
+                    "text": "“Apesar da dor que estamos sentindo com a nossa eliminação na Copa do Mundo, eu peço aos brasileiros que se lembrem do que nos trouxe até as cinco primeiras estrelas que temos no peito. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 895,
+                    "length": 23,
+                    "text": "É o amor que nos move.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 918,
+                    "length": 57,
+                    "text": "“Eu não sei o que nos faz sermos tão loucos por futebol. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.89,
+                        "neutral": 0,
+                        "negative": 0.11
+                    },
+                    "offset": 975,
+                    "length": 179,
+                    "text": "Se é o amor pela união de amizades verdadeiras em torno do esporte, pelo grito do gol ou por esquecer de todos os problemas que enfrentamos, mesmo que seja por apenas 90 minutos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.55,
+                        "neutral": 0,
+                        "negative": 0.45
+                    },
+                    "offset": 1154,
+                    "length": 132,
+                    "text": "Talvez o amor pelo combate à pobreza, à fome e às drogas, que o futebol assume em tantas comunidades que formam um país tão imenso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1286,
+                    "length": 47,
+                    "text": "São muitas as virtudes do esporte mais bonito. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 1333,
+                    "length": 27,
+                    "text": "Ainda mais aqui no Brasil.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.93,
+                        "negative": 0.07
+                    },
+                    "offset": 1360,
+                    "length": 23,
+                    "text": "“Não importa o motivo. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 1383,
+                    "length": 90,
+                    "text": "O que importa é que essa torcida nos uniu, em um momento que precisávamos tanto de união. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.42,
+                        "neutral": 0.57,
+                        "negative": 0.01
+                    },
+                    "offset": 1473,
+                    "length": 90,
+                    "text": "E meu sonho é que este sentimento entre nós e pelo nosso país não seja apenas passageiro. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 1563,
+                    "length": 39,
+                    "text": "Este objetivo pode parecer impossível. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.97,
+                        "neutral": 0.02,
+                        "negative": 0.02
+                    },
+                    "offset": 1602,
+                    "length": 108,
+                    "text": "Porém, quando eu era garoto, eu tive outro sonho que também parecia: vencer a Copa do Mundo para o meu pai.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.44,
+                        "neutral": 0.51,
+                        "negative": 0.06
+                    },
+                    "offset": 1710,
+                    "length": 74,
+                    "text": "“Falando em sonhos, não pensem que os sonhos dos nossos atletas acabaram. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.97,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 1784,
+                    "length": 94,
+                    "text": "Eu sei que eles ainda sonham com a sexta estrela, assim como eu sonhava quando era um menino. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.6,
+                        "negative": 0.39
+                    },
+                    "offset": 1878,
+                    "length": 37,
+                    "text": "A nossa conquista foi apenas adiada.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1915,
+                    "length": 106,
+                    "text": "“Aos meus amigos atletas e comissão técnica da Seleção, eu deixo a minha admiração, solidariedade e amor. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 2021,
+                    "length": 110,
+                    "text": "A todos os brasileiros, eu desejo que a união e o amor que nos une no esporte transcenda para a vida inteira. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 2131,
+                    "length": 24,
+                    "text": "O sonho é de todos nós. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 2155,
+                    "length": 19,
+                    "text": "Amor, amor e amor.”",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

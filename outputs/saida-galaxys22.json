@@ -1,0 +1,272 @@
+{
+    "documents": [
+        {
+            "id": "id__1775",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.47,
+                "neutral": 0.03,
+                "negative": 0.49
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.34,
+                        "neutral": 0.65,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 163,
+                    "text": "O Galaxy S22 é uma evolução natural do Galaxy S21, e é óbvio que você vai encontrar algumas melhorias na nova geração, principalmente quando o assunto é hardware. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.62,
+                        "negative": 0.36
+                    },
+                    "offset": 163,
+                    "length": 131,
+                    "text": "O chipset Snapdragon 8 Gen 1 realmente se sobressai em potência em relação ao Exynos 2100 do S21, embora não esteja tão otimizado.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 294,
+                    "length": 103,
+                    "text": "A construção também recebeu novidades, agora com uma tampa traseira de vidro e um corpo mais compacto. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.95,
+                        "neutral": 0.05,
+                        "negative": 0.01
+                    },
+                    "offset": 397,
+                    "length": 131,
+                    "text": "Para quem possui mãos pequenas e preza por celulares \"pequenos\", ele com certeza é uma excelente pedida ao lado do iPhone 13 mini.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.15,
+                        "neutral": 0.82,
+                        "negative": 0.03
+                    },
+                    "offset": 528,
+                    "length": 105,
+                    "text": "Em alguns departamentos eu gostaria que houvesse um avanço mais significativo, como a tela e as câmeras. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.93,
+                        "neutral": 0.05,
+                        "negative": 0.02
+                    },
+                    "offset": 633,
+                    "length": 92,
+                    "text": "A qualidade delas melhorou, mas não a ponto de fazer você trocar o já excelente Galaxy S21. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 637,
+                            "length": 9,
+                            "text": "qualidade",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 653,
+                            "length": 8,
+                            "text": "melhorou",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 705,
+                            "length": 9,
+                            "text": "excelente",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 725,
+                    "length": 113,
+                    "text": "Além disso, a bateria infelizmente piorou ano a ano, portanto não o recomendo se você for exigente em autonomia.\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 741,
+                            "length": 7,
+                            "text": "bateria",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 762,
+                            "length": 6,
+                            "text": "piorou",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 795,
+                            "length": 9,
+                            "text": "recomendo",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.04,
+                        "negative": 0.95
+                    },
+                    "offset": 838,
+                    "length": 89,
+                    "text": "No fim, eu recomendo o Galaxy S22, mas esse ainda não é o melhor momento para comprá-lo. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 864,
+                            "length": 10,
+                            "text": "Galaxy S22",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 852,
+                            "length": 9,
+                            "text": "recomendo",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 899,
+                            "length": 6,
+                            "text": "melhor",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.46,
+                        "neutral": 0.48,
+                        "negative": 0.06
+                    },
+                    "offset": 927,
+                    "length": 145,
+                    "text": "Com seu antecessor chegando na casa dos R$ 3.000, não acho que gastar quase o dobro para ter algumas melhorias aqui e ali seja a melhor decisão.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.02
+                    },
+                    "offset": 1072,
+                    "length": 126,
+                    "text": "Quando ele estiver custando abaixo de R$ 4.500, o que pode acontecer em alguns meses, aí sim você pode começar a considerá-lo.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
