@@ -3,7 +3,7 @@ Caso seja sua primeira interação com o ambiente Azure, recomendo visitar prime
 
 ## Introdução ao Speech Studio
 Para trabalhar com NLP dentro do Azure, começaremos pelo o Speech Studio que está disponível neste [link](https://speech.microsoft.com/portal). Logue com sua conta Azure, e você já terá acesso ás ferramentas.
-![alt text](imagens-explicacao/image.png)
+![alt text](imagens-explicação/image.png)
 
 ### Criar um novo recurso
 Dentro da página inicial, clique no ícone da engrenagem. Ela te levará a aba de configurações.
