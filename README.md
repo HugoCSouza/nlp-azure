@@ -1,11 +1,14 @@
 # Utilização de recursos de linguagem natural dentro do Azure
+
 Caso seja sua primeira interação com o ambiente Azure, recomendo visitar primeiro [este repositório](https://github.com/HugoCSouza/inicio-azure) que indica os passos iniciais de configuração de um ambiente Azure.
 
 ## Introdução ao Speech Studio
+
 Para trabalhar com NLP dentro do Azure, começaremos pelo o Speech Studio que está disponível neste [link](https://speech.microsoft.com/portal). Logue com sua conta Azure, e você já terá acesso ás ferramentas.
 ![alt text](imagens-explicação/image.png)
 
 ### Criar um novo recurso
+
 Dentro da página inicial, clique no ícone da engrenagem. Ela te levará a aba de configurações.
 ![alt text](imagens-explicação/image-1.png)
 
@@ -27,7 +30,8 @@ Para demonstrar o uso da ferramenta, pedi a pessoas próximas que me mandassem �
 ## Language Studio
 
 ### Criando um recurso
-Para utilizarmos o processamento de linguagem natural para utilizarmos ferramentas como análise de sentimentos, precissamos de outro tipo de recursos e IAs focada mais nesse tipo de análise de linguagem natural. Para fazermos isto no ambiente Azure, utilizaremos o Languague Studio. Para isto, começaremos inicializiando um novo recurso, diferente do utilizando anteriormente. 
+
+Para utilizarmos o processamento de linguagem natural para utilizarmos ferramentas como análise de sentimentos, precissamos de outro tipo de recursos e IAs focada mais nesse tipo de análise de linguagem natural. Para fazermos isto no ambiente Azure, utilizaremos o Languague Studio. Para isto, começaremos inicializiando um novo recurso, diferente do utilizando anteriormente.
 
 Então, na [página inicial do Azure](https://portal.azure.com/#home), clique na opção de criar recursos e, dentro da aba IA + Machine Learning (destacado em roxo), selecione a opção Análise de texto (destacado em verde).
 ![alt text](imagens-explicação/image-8.png)
@@ -41,15 +45,18 @@ Coloque as informações assim como no item Speech Studio, informando o nome a r
 Aguarde a criação do recurso e partiremos para o próximo passo.
 
 ### Language Studio
+
 Então, vá para o [language studio](https://language.cognitive.azure.com/home). Entre na sua conta e a janela abaixo será apresentada. Deixe o resource type como language.
 ![alt text](imagens-explicação/image-13.png)
 
 Selecione a opção de classificação de texto (*Classify text*), destacado em vermelho, e selecione o modelo de classficação de mineração e análise de sentimentos (*Analyze sentiment and mine opinions*), destacado em roxo.
 ![alt text](imagens-explicação/image-14.png)
 
-Selecione a lingua do texto no qual você irá utilizar no campo *Select text language*, indicado pela seta vermelha. O texto é colado dentro do campo indicado pela seta amarela, ou faça o upload de um texto clicando onde está indicado na seta cinza. E selecione a caixa indicada pela seta verde. 
+Selecione a lingua do texto no qual você irá utilizar no campo *Select text language*, indicado pela seta vermelha. O texto é colado dentro do campo indicado pela seta amarela, ou faça o upload de um texto clicando onde está indicado na seta cinza. E selecione a caixa indicada pela seta verde.
 ![alt text](imagens-explicação/image-17.png)
 
 Rolando a página para baixo, é apresentado o botão de rodar a ferramenta e a caixa de saída.
 ![alt text](imagens-explicação/image-18.png)
 Para testar a ferramenta, foi utilizada a [análise do Samsung Galaxy S22](https://canaltech.com.br/produto/samsung/galaxy-s22/analise/) na seção vale a pena, a [pesquisa recente sobre a aprovação do governo](https://g1.globo.com/politica/noticia/2024/03/21/datafolha-comparacao-governo-lula-outros-presidentes.ghtml) e a [carta aberta do Rei pelé sobre o final da copa do mundo de 2022.](https://www.poder360.com.br/esportes/final-da-copa-foi-espetaculo-ao-futuro-do-futebol-diz-pele/). As respostas das análises de sentimentos estão disponíveis, respectivamente, nos arquivos [Galaxy](outputs/saida-galaxys22.json), [Governo](outputs/saida-galaxys22.json) e [Rei pelé](outputs/saida-carta-pele.json).
+
+#### Este repositório foi feito com objetivo de demonstrar a configuração básica de uma ferramenta de inteligencia dentro do Azure, além de servir como base de avaliação dentro do bootcamp " Microsoft Azure AI Fundamentals" ministrado pela DIO. Qualquer sugestão, pode solicitar um pull request ou entrar em contato comigo via [linkedin](https://www.linkedin.com/in/hugo-cs-souza/)
